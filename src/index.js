@@ -2,7 +2,7 @@ const express = require("express");
 const connect = require("./config/database");
 const PORT = 3000;
 const app = express();
-const User = require("./models/user");
+//const User = require("./models/user");
 const router = require("./routes");
 
 app.use(express.json());
